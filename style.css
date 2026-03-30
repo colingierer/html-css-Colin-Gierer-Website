@@ -743,3 +743,9 @@ footer p {
         width: 100%;
     }
 }
+#project-4-img {
+    width: 60%;        /* Adjust percentage as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
