@@ -752,3 +752,19 @@ footer p {
     margin: 0 auto;
     display: block;
 }
+
+/* Keep cards inside the screen on tablets and phones */
+@media screen and (max-width: 1200px) {
+    .details-container {
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 600px) {
+    #projects .details-container {
+        min-width: 0;
+        width: 100%;
+    }
+    #projects .experience-details-container {
+        padding: 1rem 0;
+    }
+}
