@@ -288,6 +288,9 @@ section {
     justify-content: center;
     flex-direction:column ;
 }
+#experience .experience-details-container {
+    gap: 2rem;
+}
 .article-container {
     display: flex;
     text-align: initial;
