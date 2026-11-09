@@ -251,60 +251,8 @@ onclick="location.href='./#projects'">
   <p class="section__text__p1">Browse My Recent</p>
   <h1 class="title">Projects</h1>
 
-  <div class="experience-details-container">
-    
-    <!-- Project 1 -->
-    <div class="details-container color-container">
-      <div class="article-container">
-        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
-      </div>
-      <h2 class="experience-sub-title project-title">This Website</h2>
-      <div class="btn-container">
-        <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com/colingierer/html-css-Colin-Gierer-Website'">
-          Github
-        </button>
-        
-        
-      </div>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="details-container color-container">
-      <div class="article-container">
-        <img src="./assets/project-2.jpg" alt="Project 2" class="project-img">
-      </div>
-      <h2 class="experience-sub-title project-title">Building my PC</h2>
-      <div class="btn-container">
-        <p>Building my pc and upgrading it throughout the years</p>
-       
-      </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="details-container color-container">
-      <div class="article-container">
-        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
-      </div>
-      <h2 class="experience-sub-title project-title">Database Project</h2>
-      <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/colingierer/Python-Database-Project'">Github</button>
-        
-    </div>
-
-  </div>
-  <!-- Project 4 -->
-    <div class="details-container color-container">
-      <div class="article-container">
-        <img src="./assets/project-4.png" alt="Project 4" class="project-img" id="project-4-img">
-      </div>
-      <h2 class="experience-sub-title project-title">Mobile App Project (ClaudeCode)</h2>
-      <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/colingierer/NeuRep-APP'">Github</button>
-        
-    </div>
-
-  </div>
+  <!-- Cards are built by script.js from portfolio-data.js -->
+  <div class="experience-details-container" id="project-cards"></div>
 
   <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
     onclick="location.href='./#contact'">
@@ -342,6 +290,7 @@ onclick="location.href='./#projects'">
     </nav>
     <p>Copyright &#169; 2026 Colin Gierer. All Rights Reserved.</p>
 </footer>
+    <script src="portfolio-data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
