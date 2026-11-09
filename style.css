@@ -778,3 +778,17 @@ footer p {
         padding: 1rem 0;
     }
 }
+
+/* Project card text built from portfolio-data.js */
+.project-summary,
+.project-meta,
+.project-tools {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.project-meta,
+.project-tools {
+    font-size: 0.9rem;
+    color: rgb(85, 85, 85);
+}
